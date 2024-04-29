@@ -18,7 +18,7 @@
     Username : <input type="text" id="txtUsername" />
     Password : <input type="password" id="txtPassword" />
     <br /><br />
-        <asp:Button ID="Button1" runat="server" Text="Get Employees" OnClick="btn_Click" />
+        <asp:Button ID="Button1" runat="server" Text="Get Employees Basic Authentication" OnClick="btn_Click" />
     <input id="btnClear" type="button" value="Clear" />
     <ul id="ulEmployees" runat="server"></ul>
     </form>

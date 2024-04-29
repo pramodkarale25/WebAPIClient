@@ -57,9 +57,13 @@
                        // 'Authorization': 'Basic ' + btoa(username + ':' + password)
                     },
                     success: function (data) {
-                        
+                        debugger;
+                    },
+                    error:{
+
                     },
                     complete: function (jqXHR) {
+                        debugger;
                         if (jqXHR.status == '401') {
                             ulEmployees.empty();
                             ulEmployees.append('<li style="color:red">'
